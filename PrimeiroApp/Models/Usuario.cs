@@ -9,7 +9,7 @@ namespace PrimeiroApp.Models
 
         [Display(Name = "Nome Completo")]
         [Required(ErrorMessage ="Ocampo nome é obrigatório")]
-        public string NomeUsu { get; set; }
+        public string nomeUsu { get; set; }
 
         [Display(Name = "Cargo")]
         [Required(ErrorMessage = "O campo cargo é obrigatório")]
