@@ -1,5 +1,6 @@
 create database dbBancoApp;
 use dbBancoApp;
+-- drop database dbBancoApp;
 create table usuario
 (
 IdUsu int primary KEY auto_increment,

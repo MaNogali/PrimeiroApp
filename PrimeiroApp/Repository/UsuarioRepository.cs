@@ -30,7 +30,7 @@ namespace PrimeiroApp.Repository
 
                 cmd.Parameters.Add("@nomeUsu", MySqlDbType.VarChar).Value = usuario.nomeUsu;
                 cmd.Parameters.Add("@Cargo", MySqlDbType.VarChar).Value = usuario.Cargo;
-                cmd.Parameters.Add("@DataNasc", MySqlDbType.VarChar).Value = usuario.DataNasc;
+                cmd.Parameters.Add("@DataNasc", MySqlDbType.VarChar).Value = usuario.DataNasc.ToString("yyyy/mm/dd");
 
                 cmd.ExecuteNonQuery();
                 conexao.Close();
