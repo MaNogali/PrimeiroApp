@@ -52,7 +52,7 @@ namespace PrimeiroApp.Repository
             {
                 conexao.Open();
 
-                MySqlCommand cmd = new MySqlCommand("Select * from usuario");
+                MySqlCommand cmd = new MySqlCommand("select * from usuario", conexao);
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
