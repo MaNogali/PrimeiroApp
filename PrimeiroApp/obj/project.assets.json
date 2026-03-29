@@ -6143,11 +6143,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Renato\\Desktop\\Nova pasta\\PrimeiroApp\\PrimeiroApp.csproj",
+      "projectUniqueName": "C:\\Users\\Renato\\Desktop\\PrimeiroApp\\PrimeiroApp\\PrimeiroApp.csproj",
       "projectName": "PrimeiroApp",
-      "projectPath": "C:\\Users\\Renato\\Desktop\\Nova pasta\\PrimeiroApp\\PrimeiroApp.csproj",
+      "projectPath": "C:\\Users\\Renato\\Desktop\\PrimeiroApp\\PrimeiroApp\\PrimeiroApp.csproj",
       "packagesPath": "C:\\Users\\Renato\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Renato\\Desktop\\Nova pasta\\PrimeiroApp\\obj\\",
+      "outputPath": "C:\\Users\\Renato\\Desktop\\PrimeiroApp\\PrimeiroApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
