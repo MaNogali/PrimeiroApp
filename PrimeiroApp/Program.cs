@@ -6,8 +6,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// Adicionando a interface como serviço
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+
+builder.Services.AddScoped<IEnderecoRepository, EnderecoRepository>();
+
+
 
 var app = builder.Build();
 
